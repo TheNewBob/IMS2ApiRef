@@ -43,7 +43,7 @@ var searchData=
   ['createelementbackground',['createElementBackground',['../class_g_u_i___draw.html#a46bcb7ffacc126a988076d312ced14c3',1,'GUI_Draw']]],
   ['createeventgenerator',['createEventGenerator',['../class_event_handler.html#ad69f28dba9d515c9c266ebdfe229c114',1,'EventHandler']]],
   ['createeventsink',['createEventSink',['../class_event_handler.html#a681b559bd2436692ee431d5e382c3c99',1,'EventHandler']]],
-  ['createfont',['createFont',['../class_g_u_i__font.html#a3734966a91c2189e4f9de6c29d0cf6f0',1,'GUI_font::createFont()'],['../class_fonts_and_styles.html#a724ca3cabbefd92b07e1bb10e610c3da',1,'FontsAndStyles::CreateFont()']]],
+  ['createfont',['CreateFont',['../class_fonts_and_styles.html#a724ca3cabbefd92b07e1bb10e610c3da',1,'FontsAndStyles::CreateFont()'],['../class_g_u_i__font.html#a3734966a91c2189e4f9de6c29d0cf6f0',1,'GUI_font::createFont()']]],
   ['createfonts',['createFonts',['../class_fonts_and_styles.html#a239ddafe33a0810e821818182189ca27',1,'FontsAndStyles']]],
   ['creategroup',['CreateGroup',['../class_g_u_i___radio_button.html#acc11edd7a6f7005db87f4bd6bb9b50d6',1,'GUI_RadioButton']]],
   ['creategui',['createGui',['../class_i_m_s___module.html#a49465712b29c2e100f4f118d34c091cc',1,'IMS_Module']]],

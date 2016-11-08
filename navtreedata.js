@@ -1,6 +1,7 @@
 var NAVTREE =
 [
   [ "IMS2", "index.html", [
+    [ "IMS2 - Pre-Alpha", "md_C:_Orbiter2016_Orbitersdk_IMS2_README.html", null ],
     [ "Todo List", "todo.html", null ],
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.html", "namespaces" ],
@@ -34,11 +35,11 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_event_handler_8h.html",
-"class_event_handler.html#a6e7c14ef507a3d7777a42b9ed1947586",
-"class_g_u_i___module_function___base.html#a4086691be59c809acae50f879fd8fb5f",
-"class_i_m_s___animation___tracking.html#aa0e42c1a77b5619115ade1bd44d18508",
-"class_i_m_s___orbiter___module_data.html#a095bdcb9ff1ae1307ea3b9d15e7d6c8d",
-"functions_r.html"
+"class_event_handler.html#a5eb6c5a131256a96865fa30fc05e2a7e",
+"class_g_u_i___module_function___base.html",
+"class_i_m_s___animation___tracking.html#a8a6fc024f5a320c19d3559ce89d630ce",
+"class_i_m_s___module_function_data___thruster.html#abc697509536586253a3c6f8584fdd6de",
+"functions_func_f.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

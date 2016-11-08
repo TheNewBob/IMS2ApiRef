@@ -30,6 +30,7 @@ var _event_types_8h =
       [ "SIMULATIONSTARTEDEVENT", "_event_types_8h.html#a2fa81e6b6c454b5af4167c40dbe1befead3fd553d72b7955acd71444530c72333", null ],
       [ "HULLSHAPEREMOVEDEVENT", "_event_types_8h.html#a2fa81e6b6c454b5af4167c40dbe1befea56ef64b4dc384c43c9b60d648ed68fb2", null ],
       [ "TDPOINTSCHANGEDEVENT", "_event_types_8h.html#a2fa81e6b6c454b5af4167c40dbe1befea65b40abc63d46c244f6af8deecf6fad1", null ],
+      [ "TOGGLEGEAREVENT", "_event_types_8h.html#a2fa81e6b6c454b5af4167c40dbe1befea6a57f7eda6a566bcebe2ff6fdbd0ffa5", null ],
       [ "STARTANIMATIONEVENT", "_event_types_8h.html#a2fa81e6b6c454b5af4167c40dbe1befea514c2e2b5b91bba254a4a808abb7b616", null ],
       [ "STOPANIMATIONEVENT", "_event_types_8h.html#a2fa81e6b6c454b5af4167c40dbe1befea0244492836ae09845af8b4c7f6ca4e0f", null ],
       [ "ANIMATIONFINISHEDEVENT", "_event_types_8h.html#a2fa81e6b6c454b5af4167c40dbe1befea3c7161da1225cbe7520a2f17e6b72b74", null ],
@@ -38,6 +39,7 @@ var _event_types_8h =
       [ "TRACKINGANIMATIONSTATUSEVENT", "_event_types_8h.html#a2fa81e6b6c454b5af4167c40dbe1befea0d083199b4bcd610154ef3667c7ffe19", null ],
       [ "MODIFYANIMATIONEVENT", "_event_types_8h.html#a2fa81e6b6c454b5af4167c40dbe1befea5b34cb7c8fa3fedb8582b8faa2bc1c68", null ],
       [ "ANIMATIONSTARTEDEVENT", "_event_types_8h.html#a2fa81e6b6c454b5af4167c40dbe1befea25f06074193f51a57865b996e0f49b32", null ],
-      [ "ANIMATIONFAILEDEVENT", "_event_types_8h.html#a2fa81e6b6c454b5af4167c40dbe1befea53dc24190d7688696e4d54d9147c0112", null ]
+      [ "ANIMATIONFAILEDEVENT", "_event_types_8h.html#a2fa81e6b6c454b5af4167c40dbe1befea53dc24190d7688696e4d54d9147c0112", null ],
+      [ "SETANIMATIONSTATEEVENT", "_event_types_8h.html#a2fa81e6b6c454b5af4167c40dbe1befeac8e325e3de3c225dcd2ec1087c63d81e", null ]
     ] ]
 ];

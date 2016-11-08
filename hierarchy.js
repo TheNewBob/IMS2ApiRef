@@ -13,6 +13,7 @@ var hierarchy =
         [ "ModifyAnimationEvent", "class_modify_animation_event.html", [
           [ "ModifyTrackingAnimationEvent", "class_modify_tracking_animation_event.html", null ]
         ] ],
+        [ "SetAnimationStateEvent", "class_set_animation_state_event.html", null ],
         [ "StartAnimationEvent", "class_start_animation_event.html", [
           [ "StartTrackingAnimationEvent", "class_start_tracking_animation_event.html", null ]
         ] ],
@@ -30,6 +31,7 @@ var hierarchy =
       [ "RcsChangedEvent", "class_rcs_changed_event.html", null ],
       [ "SimulationStartedEvent", "class_simulation_started_event.html", null ],
       [ "TdPointsChangedEvent", "class_td_points_changed_event.html", null ],
+      [ "ToggleGearEvent", "class_toggle_gear_event.html", null ],
       [ "TouchdownEvent", "class_touchdown_event.html", null ],
       [ "VesselLayoutChangedEvent", "class_vessel_layout_changed_event.html", null ],
       [ "VesselVisualCreatedEvent", "class_vessel_visual_created_event.html", null ],
@@ -91,6 +93,7 @@ var hierarchy =
     [ "IMS_ModuleFunctionData_Base", "class_i_m_s___module_function_data___base.html", [
       [ "IMS_ModuleFunctionData_Animation", "class_i_m_s___module_function_data___animation.html", null ],
       [ "IMS_ModuleFunctionData_Comm", "class_i_m_s___module_function_data___comm.html", null ],
+      [ "IMS_ModuleFunctionData_Gear", "class_i_m_s___module_function_data___gear.html", null ],
       [ "IMS_ModuleFunctionData_Pressurised", "class_i_m_s___module_function_data___pressurised.html", [
         [ "IMS_ModuleFunctionData_Tank", "class_i_m_s___module_function_data___tank.html", null ]
       ] ],
@@ -110,6 +113,7 @@ var hierarchy =
     [ "SimpleShape", "class_simple_shape.html", null ],
     [ "SimpleTreeNode", "class_simple_tree_node.html", null ],
     [ "StyleSet", "class_style_set.html", null ],
+    [ "TDDATA", "struct_t_d_d_a_t_a.html", null ],
     [ "THRUSTEREXHAUST", "struct_t_h_r_u_s_t_e_r_e_x_h_a_u_s_t.html", null ],
     [ "THRUSTERMODE", "struct_t_h_r_u_s_t_e_r_m_o_d_e.html", null ]
 ];

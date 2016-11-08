@@ -18,6 +18,7 @@ var searchData=
   ['ims_5fmodulefunctiondata_5fanimation',['IMS_ModuleFunctionData_Animation',['../class_i_m_s___module_function_data___animation.html',1,'']]],
   ['ims_5fmodulefunctiondata_5fbase',['IMS_ModuleFunctionData_Base',['../class_i_m_s___module_function_data___base.html',1,'']]],
   ['ims_5fmodulefunctiondata_5fcomm',['IMS_ModuleFunctionData_Comm',['../class_i_m_s___module_function_data___comm.html',1,'']]],
+  ['ims_5fmodulefunctiondata_5fgear',['IMS_ModuleFunctionData_Gear',['../class_i_m_s___module_function_data___gear.html',1,'']]],
   ['ims_5fmodulefunctiondata_5fpressurised',['IMS_ModuleFunctionData_Pressurised',['../class_i_m_s___module_function_data___pressurised.html',1,'']]],
   ['ims_5fmodulefunctiondata_5frcs',['IMS_ModuleFunctionData_Rcs',['../class_i_m_s___module_function_data___rcs.html',1,'']]],
   ['ims_5fmodulefunctiondata_5ftank',['IMS_ModuleFunctionData_Tank',['../class_i_m_s___module_function_data___tank.html',1,'']]],
@@ -40,7 +41,7 @@ var searchData=
   ['instance',['instance',['../class_fonts_and_styles.html#a75429d0a70871a8aaddeb13e09da4749',1,'FontsAndStyles']]],
   ['invokemovableprestep',['InvokeMovablePreStep',['../class_i_m_s___location.html#a32e4953ac9a1b687c43efd02a46b852e',1,'IMS_Location']]],
   ['isconnectedto',['IsConnectedTo',['../class_simple_path_node.html#adbefa84e4c55b3cc6d2c00de51e007eb',1,'SimplePathNode']]],
-  ['isfixed',['IsFixed',['../class_g_u_iplugin.html#a3e01fc62637263bdbcfc0a7fa0a95119',1,'GUIplugin::IsFixed()'],['../class_g_u_i___base_element.html#a753e4002322a7dcdc034d4fe2ed710ba',1,'GUI_BaseElement::isfixed()'],['../class_g_u_iplugin.html#ae4f05d443a472821834e3e1417bfab16',1,'GUIplugin::isfixed()']]],
+  ['isfixed',['isfixed',['../class_g_u_i___base_element.html#a753e4002322a7dcdc034d4fe2ed710ba',1,'GUI_BaseElement::isfixed()'],['../class_g_u_iplugin.html#ae4f05d443a472821834e3e1417bfab16',1,'GUIplugin::isfixed()'],['../class_g_u_iplugin.html#a3e01fc62637263bdbcfc0a7fa0a95119',1,'GUIplugin::IsFixed()']]],
   ['ishighlight',['IsHighlight',['../class_g_u_i___list_box.html#a0d253ac17fd4af324ebaff5c10320530',1,'GUI_ListBox']]],
   ['isinitialised',['isInitialised',['../class_g_u_i___surface.html#a74f7b5a05e80195aee9f217d1afc7137',1,'GUI_Surface']]],
   ['isrunning',['IsRunning',['../class_i_m_s___animation___base.html#a48d677ac69d90db7dbdaa6486fc97e31',1,'IMS_Animation_Base']]],
@@ -48,5 +49,6 @@ var searchData=
   ['isstable',['IsStable',['../class_state_node.html#a6844a2dbc6d9079f86b59be20691ae37',1,'StateNode']]],
   ['istwodimensional',['IsTwoDimensional',['../class_bounding_box.html#a558f31538c44a1ad8fa4d43ddabb7e14',1,'BoundingBox']]],
   ['isviable',['isViable',['../class_i_m_s___propellant_injector.html#a635d278526a438ffcd10ec5523a5140b',1,'IMS_PropellantInjector']]],
-  ['isvisible',['IsVisible',['../class_g_u_iplugin.html#a8cd38b4b19db305bf55d0bf2729dd243',1,'GUIplugin::IsVisible()'],['../class_g_u_iplugin.html#aefa077a5664f95f6be548890d6de579b',1,'GUIplugin::isvisible()']]]
+  ['isvisible',['IsVisible',['../class_g_u_iplugin.html#a8cd38b4b19db305bf55d0bf2729dd243',1,'GUIplugin::IsVisible()'],['../class_g_u_iplugin.html#aefa077a5664f95f6be548890d6de579b',1,'GUIplugin::isvisible()']]],
+  ['ims2_20_2d_20pre_2dalpha',['IMS2 - Pre-Alpha',['../md_C:_Orbiter2016_Orbitersdk_IMS2_README.html',1,'']]]
 ];
