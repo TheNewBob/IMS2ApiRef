@@ -20,6 +20,7 @@ var class_i_m_s___module =
     [ "GetMass", "class_i_m_s___module.html#a940cba6b8b9b628e4ac3f17b8c87f2b2", null ],
     [ "GetMeshIndex", "class_i_m_s___module.html#a06fdb66561bc2fe009dbd38ee280bc57", null ],
     [ "getModulePosDescription", "class_i_m_s___module.html#ac63cbc3df32e3a35ac6a7733f3148baa", null ],
+    [ "GetPmi", "class_i_m_s___module.html#a0c4994672e239a4058236b779f7fc27c", null ],
     [ "GetPos", "class_i_m_s___module.html#adca45559b3d5c6012a34fd2d2a0a4278", null ],
     [ "GetRot", "class_i_m_s___module.html#a1b29e94fb8de480184f75e50766b5409", null ],
     [ "GetRotationMatrix", "class_i_m_s___module.html#ad34fee3356ca488aa2e3ab554d3e1ab9", null ],

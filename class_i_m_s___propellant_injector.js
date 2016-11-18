@@ -13,6 +13,7 @@ var class_i_m_s___propellant_injector =
     [ "enableInjector", "class_i_m_s___propellant_injector.html#a585bb59f665d8e8fe96862965adc3ced", null ],
     [ "EnableThruster", "class_i_m_s___propellant_injector.html#aaab3c3741bb620194040920db020b261", null ],
     [ "GetAvailablePropellantMass", "class_i_m_s___propellant_injector.html#a76171d2053a531f5c519d2caafe67fbe", null ],
+    [ "getAvailablePropellantMassByType", "class_i_m_s___propellant_injector.html#a25a2e2f11e28768ea2e80d2ccf5041dd", null ],
     [ "GetMass", "class_i_m_s___propellant_injector.html#a74086fe311dc9184ca92802cf5e6bbd2", null ],
     [ "GetNumberOfThrusters", "class_i_m_s___propellant_injector.html#aedac3dbc48d488c3d04800e7a7113561", null ],
     [ "PreStep", "class_i_m_s___propellant_injector.html#ab6270bb8283bf73a07f78094d09e136d", null ],
@@ -23,7 +24,7 @@ var class_i_m_s___propellant_injector =
     [ "injectormasschanged", "class_i_m_s___propellant_injector.html#a486fa4d4bb1edc0ee6462fad0eaa66ac", null ],
     [ "isViable", "class_i_m_s___propellant_injector.html#a635d278526a438ffcd10ec5523a5140b", null ],
     [ "ratio", "class_i_m_s___propellant_injector.html#a7de09bfb5cde8f33302694c84525af04", null ],
-    [ "tanks", "class_i_m_s___propellant_injector.html#ab766b63f9dbea60af8f3d9bfad4510f7", null ],
+    [ "tanks", "class_i_m_s___propellant_injector.html#af3d14f9bf489fbc903ff7c528177cbe4", null ],
     [ "thrusters", "class_i_m_s___propellant_injector.html#a324a7bb1e7042916f604cc849d0d9b6b", null ],
     [ "totalmaxmassflow", "class_i_m_s___propellant_injector.html#a1c8e3e042a612347a8ae267a4dbf4fb5", null ],
     [ "v", "class_i_m_s___propellant_injector.html#a3f5a630dd1e3eca7dcdbc2dc57f98091", null ]

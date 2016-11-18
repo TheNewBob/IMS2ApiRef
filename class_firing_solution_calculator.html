@@ -127,8 +127,11 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>FiringSolutionCalculator</b> (IMS2 *vessel, vector&lt; THRUSTER_HANDLE &gt; rcsthrusters)</td></tr>
 <tr class="separator:acc94b764c0e82785f5efbce1f6f98e47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad86ec3cecede3ad4c1fdc11d077ae94d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_firing_solution_calculator.html#ad86ec3cecede3ad4c1fdc11d077ae94d">Apply</a> (VECTOR3 &amp;torque, VECTOR3 &amp;force, double thrust)</td></tr>
-<tr class="memdesc:ad86ec3cecede3ad4c1fdc11d077ae94d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies the firing solution to the vessels thrusters to achieve the demanded torque and force vectors.  <a href="#ad86ec3cecede3ad4c1fdc11d077ae94d">More...</a><br /></td></tr>
+<tr class="memdesc:ad86ec3cecede3ad4c1fdc11d077ae94d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies the firing solution to the vessels thrusters to achieve the demanded torque and force levels.  <a href="#ad86ec3cecede3ad4c1fdc11d077ae94d">More...</a><br /></td></tr>
 <tr class="separator:ad86ec3cecede3ad4c1fdc11d077ae94d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeccd6aabebe075dcd4fff9b1bc75ef51"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_firing_solution_calculator.html#aeccd6aabebe075dcd4fff9b1bc75ef51">CalculateTorqueLevels</a> (VECTOR3 &amp;IN_OUT_torque)</td></tr>
+<tr class="memdesc:aeccd6aabebe075dcd4fff9b1bc75ef51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the thrust levels to achieve the requested torque.  <a href="#aeccd6aabebe075dcd4fff9b1bc75ef51">More...</a><br /></td></tr>
+<tr class="separator:aeccd6aabebe075dcd4fff9b1bc75ef51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac860843319f89d12223d067deac6415d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_firing_solution_calculator.html#ac860843319f89d12223d067deac6415d">IsSolutionReady</a> ()</td></tr>
 <tr class="separator:ac860843319f89d12223d067deac6415d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -145,16 +148,12 @@ FIRING_SOLUTION&#160;</td><td class="memItemRight" valign="bottom"><b>calculateF
 <tr class="separator:a55d1668c3f94a7e4c58ccbdcb699a36f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa218d19b349b0413e87298e925d23da1"><td class="memItemLeft" align="right" valign="top">FIRING_SOLUTION&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_firing_solution_calculator.html#aa218d19b349b0413e87298e925d23da1">completeFiringSolution</a> (FIRING_SOLUTION &amp;sol)</td></tr>
 <tr class="separator:aa218d19b349b0413e87298e925d23da1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64de73d1b849030c42d4c9cecc09e2c7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a64de73d1b849030c42d4c9cecc09e2c7"></a>
-map&lt; FORCETYPE, VECTOR3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>calculateGeneratedForce</b> (FIRING_SOLUTION &amp;sol, vector&lt; FiringSolutionThruster * &gt; &amp;involvedthrusters)</td></tr>
+<tr class="memitem:a64de73d1b849030c42d4c9cecc09e2c7"><td class="memItemLeft" align="right" valign="top">map&lt; FORCETYPE, VECTOR3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_firing_solution_calculator.html#a64de73d1b849030c42d4c9cecc09e2c7">calculateGeneratedForce</a> (FIRING_SOLUTION &amp;sol, vector&lt; FiringSolutionThruster * &gt; &amp;involvedthrusters)</td></tr>
+<tr class="memdesc:a64de73d1b849030c42d4c9cecc09e2c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the total force a firing solution can produce with a certain subset of thrusters.  <a href="#a64de73d1b849030c42d4c9cecc09e2c7">More...</a><br /></td></tr>
 <tr class="separator:a64de73d1b849030c42d4c9cecc09e2c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c075a8965a70984e2f495dc19458b55"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0c075a8965a70984e2f495dc19458b55"></a>
-VECTOR3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_firing_solution_calculator.html#a0c075a8965a70984e2f495dc19458b55">getPrincipleTorqueVectorForGroup</a> (THGROUP_TYPE group)</td></tr>
-<tr class="memdesc:a0c075a8965a70984e2f495dc19458b55"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the principle directional vector a thruster group symbolises <br /></td></tr>
-<tr class="separator:a0c075a8965a70984e2f495dc19458b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c2841628ca6123870ff59f515b7cd7e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6c2841628ca6123870ff59f515b7cd7e"></a>
-VECTOR3&#160;</td><td class="memItemRight" valign="bottom"><b>getPrincipleForceVectorForGroup</b> (THGROUP_TYPE group)</td></tr>
-<tr class="separator:a6c2841628ca6123870ff59f515b7cd7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11cb78ea66955d55b882ff5799f3b52b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_firing_solution_calculator.html#a11cb78ea66955d55b882ff5799f3b52b">setMaxForcesForGroup</a> (THGROUP_TYPE group, map&lt; FORCETYPE, VECTOR3 &gt; forces)</td></tr>
+<tr class="memdesc:a11cb78ea66955d55b882ff5799f3b52b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notes the passed forces as the maximum forces this group can produce.  <a href="#a11cb78ea66955d55b882ff5799f3b52b">More...</a><br /></td></tr>
+<tr class="separator:a11cb78ea66955d55b882ff5799f3b52b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b241eb4e9ab7ce1cd62ba85a7b1a1cb"><td class="memItemLeft" align="right" valign="top">vector&lt; THGROUP_TYPE &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_firing_solution_calculator.html#a5b241eb4e9ab7ce1cd62ba85a7b1a1cb">getGroupsFromForceVector</a> (VECTOR3 &amp;force, FORCETYPE type)</td></tr>
 <tr class="separator:a5b241eb4e9ab7ce1cd62ba85a7b1a1cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -215,6 +214,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:aa5781cdb0dbbbf7ec23bec1afd5b7ad3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa5781cdb0dbbbf7ec23bec1afd5b7ad3"></a>
 thread *&#160;</td><td class="memItemRight" valign="bottom"><b>calculationthread</b></td></tr>
 <tr class="separator:aa5781cdb0dbbbf7ec23bec1afd5b7ad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4ed15a502df37b5522592b9ddd4320b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad4ed15a502df37b5522592b9ddd4320b"></a>
+map&lt; THGROUP_TYPE, map&lt; FORCETYPE, VECTOR3 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>maxforces</b></td></tr>
+<tr class="separator:ad4ed15a502df37b5522592b9ddd4320b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Calculates a new firing solution for Rcs thrusters in a new thread. </p>
@@ -250,9 +252,86 @@ thread *&#160;</td><td class="memItemRight" valign="bottom"><b>calculationthread
       </table>
 </div><div class="memdoc">
 
-<p>Applies the firing solution to the vessels thrusters to achieve the demanded torque and force vectors. </p>
+<p>Applies the firing solution to the vessels thrusters to achieve the demanded torque and force levels. </p>
 <dl class="section note"><dt>Note</dt><dd>Has no effect if called on an instance that is still calculating its solution. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">torque</td><td>Vector containing the thrust levels for rotation groups in the three axes, between -1.0 and 1.0. </td></tr>
+    <tr><td class="paramname">force</td><td>Vector containing the thrust levels for translation groups in the three axes, between -1.0 and 1.0. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>A level of 1.0 or -1.0 means that the maximum thrust will be applied that still guarantees avoiding artifacts. If both torque and force are requested at the same time, that caution is thrown to the wind. </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_firing_solution_calculator.html#ac860843319f89d12223d067deac6415d">IsSolutionReady()</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a64de73d1b849030c42d4c9cecc09e2c7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">map&lt; FORCETYPE, VECTOR3 &gt; FiringSolutionCalculator::calculateGeneratedForce </td>
+          <td>(</td>
+          <td class="paramtype">FIRING_SOLUTION &amp;&#160;</td>
+          <td class="paramname"><em>sol</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">vector&lt; FiringSolutionThruster * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>involvedthrusters</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculates the total force a firing solution can produce with a certain subset of thrusters. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sol</td><td>The firing solution you want to know the generated forces for. </td></tr>
+    <tr><td class="paramname">involvedthrusters</td><td>A list of all thrusters to be used in the solution. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A map with two vectors keyed to F_LINEAR and F_TORQUE. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aeccd6aabebe075dcd4fff9b1bc75ef51"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FiringSolutionCalculator::CalculateTorqueLevels </td>
+          <td>(</td>
+          <td class="paramtype">VECTOR3 &amp;&#160;</td>
+          <td class="paramname"><em>IN_OUT_torque</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculates the thrust levels to achieve the requested torque. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">torque</td><td>Desired torque around 3 axes, in Nm. Will be converted to values between -1.0 and 1.0, proportional to the maximum maneuverability. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>If the torque cannot be produced, hrusters will be set to max level allowed to avoid lateral force. </dd></dl>
 
 </div>
 </div>
@@ -350,6 +429,50 @@ thread *&#160;</td><td class="memItemRight" valign="bottom"><b>calculationthread
 </table>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>true if the solution has been calculated, false if it is still running. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a11cb78ea66955d55b882ff5799f3b52b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FiringSolutionCalculator::setMaxForcesForGroup </td>
+          <td>(</td>
+          <td class="paramtype">THGROUP_TYPE&#160;</td>
+          <td class="paramname"><em>group</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">map&lt; FORCETYPE, VECTOR3 &gt;&#160;</td>
+          <td class="paramname"><em>forces</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Notes the passed forces as the maximum forces this group can produce. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">group</td><td>The thruster group the forces are for. </td></tr>
+    <tr><td class="paramname">forces</td><td>a map containing the maximum values for F_TORQUE and F_LINEAR. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>Since this saves magnitudes, the forces are always positive. Howver, the sign of the forces you pass to this method do not matter, it will convert them itself. </dd></dl>
 
 </div>
 </div>

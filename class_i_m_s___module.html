@@ -229,6 +229,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a25678b9bc5317ed6c62ba2c0c06564e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_m_s___module.html#a25678b9bc5317ed6c62ba2c0c06564e9">UpdateAttachmentPoints</a> (bool redock=false)</td></tr>
 <tr class="memdesc:a25678b9bc5317ed6c62ba2c0c06564e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates state of attachment points and associated dockports as well as vessels docked to those ports.  <a href="#a25678b9bc5317ed6c62ba2c0c06564e9">More...</a><br /></td></tr>
 <tr class="separator:a25678b9bc5317ed6c62ba2c0c06564e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c4994672e239a4058236b779f7fc27c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0c4994672e239a4058236b779f7fc27c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_m_s___module.html#a0c4994672e239a4058236b779f7fc27c">GetPmi</a> (VECTOR3 &amp;OUT_pmi)</td></tr>
+<tr class="memdesc:a0c4994672e239a4058236b779f7fc27c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the modules principle moments of inertia ("inertia" parameter in cfg) in the passed VECTOR3. <br /></td></tr>
+<tr class="separator:a0c4994672e239a4058236b779f7fc27c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0ce5f520ab10254cb0f69733ed3f390"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_m_s___module.html#ac0ce5f520ab10254cb0f69733ed3f390">CreatePhysicalAttachmentPoints</a> ()</td></tr>
 <tr class="memdesc:ac0ce5f520ab10254cb0f69733ed3f390"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates the actual physical attachment points of this vessel (i.e. the orbiter dockports).  <a href="#ac0ce5f520ab10254cb0f69733ed3f390">More...</a><br /></td></tr>
 <tr class="separator:ac0ce5f520ab10254cb0f69733ed3f390"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -594,7 +598,6 @@ addmesh must always be true except if this is the first module in a vessel, whic
 
 <p>creates the actual physical attachment points of this vessel (i.e. the orbiter dockports). </p>
 <dl class="section note"><dt>Note</dt><dd>This is an initialiser function and only called at very specific places in the code </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000007">Todo:</a></b></dt><dd>With proper adjustements, this function could be made private </dd></dl>
 
 </div>
 </div>
@@ -1247,7 +1250,7 @@ addmesh must always be true except if this is the first module in a vessel, whic
 </div><div class="memdoc">
 
 <p>Gets called after assimilating a module, because all DOCKHANDLEs in the module are now invalid. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000008">Todo:</a></b></dt><dd>with proper event handling, it might be possible to make this function private </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000007">Todo:</a></b></dt><dd>with proper event handling, it might be possible to make this function private </dd></dl>
 
 </div>
 </div>

@@ -144,6 +144,10 @@ string&#160;</td><td class="memItemRight" valign="bottom"><b>getClassName</b> ()
 <tr class="memitem:a63adaeb913a12f205ed2aced5d1d994f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a63adaeb913a12f205ed2aced5d1d994f"></a>
 vector&lt; IMSATTACHMENTPOINT &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getAttachmentPoints</b> ()</td></tr>
 <tr class="separator:a63adaeb913a12f205ed2aced5d1d994f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f5736796c598b6f63fd054f74b2c6d1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0f5736796c598b6f63fd054f74b2c6d1"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_m_s___orbiter___module_data.html#a0f5736796c598b6f63fd054f74b2c6d1">getPmi</a> (VECTOR3 &amp;OUT_pmi)</td></tr>
+<tr class="memdesc:a0f5736796c598b6f63fd054f74b2c6d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the modules principle moments of inertia in the passed VECTOR3. <br /></td></tr>
+<tr class="separator:a0f5736796c598b6f63fd054f74b2c6d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85bd3753de464a1abf32930de3ed671b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_simple_shape.html">SimpleShape</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_m_s___orbiter___module_data.html#a85bd3753de464a1abf32930de3ed671b">GetHullShape</a> ()</td></tr>
 <tr class="separator:a85bd3753de464a1abf32930de3ed671b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -168,11 +172,14 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>_valid</b></td></tr>
 <a class="el" href="class_simple_shape.html">SimpleShape</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_m_s___orbiter___module_data.html#a443dbfe8d0a60ae20f90c26cecfe4609">hullshape</a> = NULL</td></tr>
 <tr class="memdesc:a443dbfe8d0a60ae20f90c26cecfe4609"><td class="mdescLeft">&#160;</td><td class="mdescRight">The vertices of the hull shape of the module, module relative. <br /></td></tr>
 <tr class="separator:a443dbfe8d0a60ae20f90c26cecfe4609"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfd8db0e5c1c477ff4d8e63e1d54c32f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acfd8db0e5c1c477ff4d8e63e1d54c32f"></a>
+VECTOR3&#160;</td><td class="memItemRight" valign="bottom"><b>pmi</b> = _V(0, 0, 0)</td></tr>
+<tr class="separator:acfd8db0e5c1c477ff4d8e63e1d54c32f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a4be8b79637e029165bb3b1d76dc5583d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_m_s___orbiter___module_data.html#a4be8b79637e029165bb3b1d76dc5583d">createHullShape</a> (<a class="el" href="struct_h_u_l_l_s_h_a_p_e_d_a_t_a.html">HULLSHAPEDATA</a> shapedata)</td></tr>
-<tr class="memdesc:a4be8b79637e029165bb3b1d76dc5583d"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates the hull shape based on the parameters read from the scenario line  <a href="#a4be8b79637e029165bb3b1d76dc5583d">More...</a><br /></td></tr>
+<tr class="memdesc:a4be8b79637e029165bb3b1d76dc5583d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores the PMI ("inertia" in the cfg) of this module.  <a href="#a4be8b79637e029165bb3b1d76dc5583d">More...</a><br /></td></tr>
 <tr class="separator:a4be8b79637e029165bb3b1d76dc5583d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7c73652ab0e0edaf7dd43bdb7c20c3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_h_u_l_l_s_h_a_p_e_d_a_t_a.html">HULLSHAPEDATA</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_m_s___orbiter___module_data.html#ab7c73652ab0e0edaf7dd43bdb7c20c3e">readShape</a> (IMSFILE file)</td></tr>
 <tr class="memdesc:ab7c73652ab0e0edaf7dd43bdb7c20c3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads the next line of a SHAPE block from the config file.  <a href="#ab7c73652ab0e0edaf7dd43bdb7c20c3e">More...</a><br /></td></tr>
@@ -209,8 +216,8 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>creates the hull shape based on the parameters read from the scenario line </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>Stores the PMI ("inertia" in the cfg) of this module. </p>
+<p>creates the hull shape based on the parameters read from the scenario line </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">shapedata</td><td>The data defining the nature of the shape. </td></tr>
   </table>

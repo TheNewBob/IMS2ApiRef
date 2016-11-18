@@ -8,6 +8,7 @@ var class_i_m_s___orbiter___module_data =
     [ "getConfigFileName", "class_i_m_s___orbiter___module_data.html#a796e79d9d9968a43bcdf0027d4b5ed9c", null ],
     [ "GetHullShape", "class_i_m_s___orbiter___module_data.html#a85bd3753de464a1abf32930de3ed671b", null ],
     [ "getMeshName", "class_i_m_s___orbiter___module_data.html#aa7181c5a28da6bff8aecb226af8bad88", null ],
+    [ "getPmi", "class_i_m_s___orbiter___module_data.html#a0f5736796c598b6f63fd054f74b2c6d1", null ],
     [ "getSize", "class_i_m_s___orbiter___module_data.html#a10b426f403da86022c7dbc9ca8c2d95c", null ],
     [ "hadErrors", "class_i_m_s___orbiter___module_data.html#a095bdcb9ff1ae1307ea3b9d15e7d6c8d", null ],
     [ "LoadFromFile", "class_i_m_s___orbiter___module_data.html#a0e4e9a852dcaaed0f1ce0f37a0732d84", null ],
@@ -17,5 +18,6 @@ var class_i_m_s___orbiter___module_data =
     [ "_meshName", "class_i_m_s___orbiter___module_data.html#afdaa630add2d104029b14759ad76ebb1", null ],
     [ "_size", "class_i_m_s___orbiter___module_data.html#a2ee92d1a3a03c991ea3603e9fa4262e0", null ],
     [ "_valid", "class_i_m_s___orbiter___module_data.html#a5d2b458f32a5a6524bd0bd87fa4101e8", null ],
-    [ "hullshape", "class_i_m_s___orbiter___module_data.html#a443dbfe8d0a60ae20f90c26cecfe4609", null ]
+    [ "hullshape", "class_i_m_s___orbiter___module_data.html#a443dbfe8d0a60ae20f90c26cecfe4609", null ],
+    [ "pmi", "class_i_m_s___orbiter___module_data.html#acfd8db0e5c1c477ff4d8e63e1d54c32f", null ]
 ];

@@ -172,13 +172,15 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="separator:a585bb59f665d8e8fe96862965adc3ced"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a357e1eaa8c63a378d24c9219375a6819"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_m_s___propellant_injector.html#a357e1eaa8c63a378d24c9219375a6819">scaleInjectorResource</a> ()</td></tr>
 <tr class="separator:a357e1eaa8c63a378d24c9219375a6819"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25a2e2f11e28768ea2e80d2ccf5041dd"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_m_s___propellant_injector.html#a25a2e2f11e28768ea2e80d2ccf5041dd">getAvailablePropellantMassByType</a> (int consumable_id)</td></tr>
+<tr class="separator:a25a2e2f11e28768ea2e80d2ccf5041dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ab766b63f9dbea60af8f3d9bfad4510f7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab766b63f9dbea60af8f3d9bfad4510f7"></a>
-vector&lt; IMS_Storable * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_m_s___propellant_injector.html#ab766b63f9dbea60af8f3d9bfad4510f7">tanks</a></td></tr>
-<tr class="memdesc:ab766b63f9dbea60af8f3d9bfad4510f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">contains all currently connected tanks <br /></td></tr>
-<tr class="separator:ab766b63f9dbea60af8f3d9bfad4510f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3d14f9bf489fbc903ff7c528177cbe4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af3d14f9bf489fbc903ff7c528177cbe4"></a>
+map&lt; int, vector&lt; IMS_Storable * &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_m_s___propellant_injector.html#af3d14f9bf489fbc903ff7c528177cbe4">tanks</a></td></tr>
+<tr class="memdesc:af3d14f9bf489fbc903ff7c528177cbe4"><td class="mdescLeft">&#160;</td><td class="mdescRight">contains all currently connected tanks <br /></td></tr>
+<tr class="separator:af3d14f9bf489fbc903ff7c528177cbe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7de09bfb5cde8f33302694c84525af04"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7de09bfb5cde8f33302694c84525af04"></a>
 map&lt; int, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_m_s___propellant_injector.html#a7de09bfb5cde8f33302694c84525af04">ratio</a></td></tr>
 <tr class="memdesc:a7de09bfb5cde8f33302694c84525af04"><td class="mdescLeft">&#160;</td><td class="mdescRight">maps ratioes to their respective propellant types <br /></td></tr>
@@ -491,6 +493,37 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>the total amount of propellant available to the injector, in kg </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>This does not take the mixture into account! It may well be that the injector has a ton of propellant available, but can only burn 100 kg because the propellants are not proportional to the ratio at which they are consumed! </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a25a2e2f11e28768ea2e80d2ccf5041dd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double IMS_PropellantInjector::getAvailablePropellantMassByType </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>consumable_id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>The mass of a certain propellant type available to the injector, in kg. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">consumable_id</td><td>Id of the consumable you want to know the mass for. Must be present in the injector! </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

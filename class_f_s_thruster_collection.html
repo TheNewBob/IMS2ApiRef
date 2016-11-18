@@ -127,13 +127,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a672eb83b582267e700e4b5b6c99b0067"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_s_thruster_collection.html#a672eb83b582267e700e4b5b6c99b0067">FSThrusterCollection</a> (vector&lt; FiringSolutionThruster &gt; &amp;thrusters)</td></tr>
 <tr class="memdesc:a672eb83b582267e700e4b5b6c99b0067"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs the collection out of already created FiringSolutionThrusters. Intended for use in unit tests.  <a href="#a672eb83b582267e700e4b5b6c99b0067">More...</a><br /></td></tr>
 <tr class="separator:a672eb83b582267e700e4b5b6c99b0067"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64a6df59755e4b62cb9334a0d745174c"><td class="memItemLeft" align="right" valign="top">vector&lt; FiringSolutionThruster * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_s_thruster_collection.html#a64a6df59755e4b62cb9334a0d745174c">GetThrustersInGroup</a> (THGROUP_TYPE group)</td></tr>
-<tr class="separator:a64a6df59755e4b62cb9334a0d745174c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad73faef18864be6e730bfc4cb90f044"><td class="memItemLeft" align="right" valign="top">vector&lt; FiringSolutionThruster * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_s_thruster_collection.html#aad73faef18864be6e730bfc4cb90f044">GetThrustersInGroup</a> (THGROUP_TYPE group)</td></tr>
+<tr class="separator:aad73faef18864be6e730bfc4cb90f044"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a794fc06f98ec46e21a8743b2b496609e"><td class="memItemLeft" align="right" valign="top">vector&lt; FiringSolutionThruster * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_s_thruster_collection.html#a794fc06f98ec46e21a8743b2b496609e">GetGroupUnion</a> (vector&lt; THGROUP_TYPE &gt; &amp;groups, THGROUP_TYPE governing_group)</td></tr>
 <tr class="separator:a794fc06f98ec46e21a8743b2b496609e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8ef1ae12b4bcc0e958c011c8f95ee89"><td class="memItemLeft" align="right" valign="top">map&lt; FORCETYPE, VECTOR3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_s_thruster_collection.html#ae8ef1ae12b4bcc0e958c011c8f95ee89">GetTotalForces</a> (THGROUP_TYPE group)</td></tr>
 <tr class="memdesc:ae8ef1ae12b4bcc0e958c011c8f95ee89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the overall forces all thrusters from this group will exert on the vessel.  <a href="#ae8ef1ae12b4bcc0e958c011c8f95ee89">More...</a><br /></td></tr>
 <tr class="separator:ae8ef1ae12b4bcc0e958c011c8f95ee89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade009fa0d19d4877da426bdb566f9588"><td class="memItemLeft" align="right" valign="top">vector&lt; FiringSolutionThruster * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_s_thruster_collection.html#ade009fa0d19d4877da426bdb566f9588">GetThrusters</a> ()</td></tr>
+<tr class="separator:ade009fa0d19d4877da426bdb566f9588"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -269,7 +271,7 @@ static const double&#160;</td><td class="memItemRight" valign="bottom"><b>MINREL
 
 </div>
 </div>
-<a class="anchor" id="a64a6df59755e4b62cb9334a0d745174c"></a>
+<a class="anchor" id="ade009fa0d19d4877da426bdb566f9588"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -277,10 +279,9 @@ static const double&#160;</td><td class="memItemRight" valign="bottom"><b>MINREL
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">vector&lt;FiringSolutionThruster*&gt;&amp; FSThrusterCollection::GetThrustersInGroup </td>
+          <td class="memname">vector&lt;FiringSolutionThruster*&gt; FSThrusterCollection::GetThrusters </td>
           <td>(</td>
-          <td class="paramtype">THGROUP_TYPE&#160;</td>
-          <td class="paramname"><em>group</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -289,6 +290,23 @@ static const double&#160;</td><td class="memItemRight" valign="bottom"><b>MINREL
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>A reference to the entire thrusterlist </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aad73faef18864be6e730bfc4cb90f044"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">vector&lt; FiringSolutionThruster * &gt; &amp; FSThrusterCollection::GetThrustersInGroup </td>
+          <td>(</td>
+          <td class="paramtype">THGROUP_TYPE&#160;</td>
+          <td class="paramname"><em>group</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>A reference to a vector of pointers to all thrusters in a group, sorted in descending order by their suitability for that score </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>

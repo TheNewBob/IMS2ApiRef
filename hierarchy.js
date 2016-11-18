@@ -87,6 +87,12 @@ var hierarchy =
       [ "IMS_Animation_Sequential", "class_i_m_s___animation___sequential.html", null ],
       [ "IMS_Animation_Tracking", "class_i_m_s___animation___tracking.html", null ]
     ] ],
+    [ "IMS_Autopilot_Base", "class_i_m_s___autopilot___base.html", [
+      [ "IMS_Autopilot_Killrot", "class_i_m_s___autopilot___killrot.html", null ]
+    ] ],
+    [ "IMS_AutopilotOperation_Base", "class_i_m_s___autopilot_operation___base.html", [
+      [ "IMS_AutopilotOperation_Killrot", "class_i_m_s___autopilot_operation___killrot.html", null ]
+    ] ],
     [ "IMS_General_ModuleData", "class_i_m_s___general___module_data.html", null ],
     [ "IMS_Location", "class_i_m_s___location.html", null ],
     [ "IMS_Matrix< T >", "class_i_m_s___matrix.html", null ],

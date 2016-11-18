@@ -10,7 +10,7 @@ var searchData=
   ['margintop',['MarginTop',['../class_g_u_i___element_style.html#a75108a173541d001621653b951406ef7',1,'GUI_ElementStyle']]],
   ['maxspeed',['maxspeed',['../class_i_m_s___animation___base.html#a2871dd9b2abcf7dd9d8a8b629b16ca98',1,'IMS_Animation_Base']]],
   ['merge',['Merge',['../class_simple_shape.html#aea825ac515a9b8f5c87b87937e7a0375',1,'SimpleShape']]],
-  ['mergeboundingbox',['mergeBoundingBox',['../class_simple_shape.html#a5f2cc904df929560de3a843a117753a5',1,'SimpleShape::mergeBoundingBox()'],['../class_bounding_box.html#a972ad8ec5cc48c6e67f9fac9faf3f9d7',1,'BoundingBox::MergeBoundingBox()']]],
+  ['mergeboundingbox',['MergeBoundingBox',['../class_bounding_box.html#a972ad8ec5cc48c6e67f9fac9faf3f9d7',1,'BoundingBox::MergeBoundingBox()'],['../class_simple_shape.html#a5f2cc904df929560de3a843a117753a5',1,'SimpleShape::mergeBoundingBox()']]],
   ['meshindex',['meshIndex',['../class_i_m_s___module.html#ac12b2311d57b1ba5a3fad6f3fcc6e8dd',1,'IMS_Module::meshIndex()'],['../class_i_m_s___animation___base.html#af22b3f06d61dc6905bbede593c893796',1,'IMS_Animation_Base::meshindex()']]],
   ['mirrored',['mirrored',['../class_i_m_s___module_function_data___rcs.html#a20130fcde8a1c54de46d180b70eba778',1,'IMS_ModuleFunctionData_Rcs']]],
   ['mirrorexhausts',['mirrorExhausts',['../class_i_m_s___module_function_data___rcs.html#aba0ca78f16687294cf5b3c71d2a8088b',1,'IMS_ModuleFunctionData_Rcs']]],

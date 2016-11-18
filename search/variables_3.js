@@ -6,6 +6,7 @@ var searchData=
   ['children',['children',['../class_event_node.html#aab6ec11fac0839901dd224b81b195838',1,'EventNode::children()'],['../class_g_u_i___base_element.html#a1d29ef450659539badb84b39f8f016e5',1,'GUI_BaseElement::children()'],['../class_g_u_i___surface.html#a0ff0f7f45a0d12428e5245def2df2cc6',1,'GUI_Surface::children()'],['../class_simple_tree_node.html#aa5ac01d83a6d65957bb358f145573056',1,'SimpleTreeNode::children()']]],
   ['clbk',['clbk',['../class_g_u_ilist_popup.html#a594743713025339a7a041403cd81364d',1,'GUIlistPopup']]],
   ['color',['color',['../class_g_u_i__font.html#ad0821854155906c19b6b0d236b0a48a7',1,'GUI_font']]],
+  ['commandedtorque',['commandedtorque',['../class_i_m_s___rcs_manager.html#a1ffa1856ccb2426e48aa4bb25ec83d09',1,'IMS_RcsManager']]],
   ['convertible',['convertible',['../class_i_m_s___module_function_data___tank.html#a2a5499c028e2570891375d4ffe40f85c',1,'IMS_ModuleFunctionData_Tank']]],
   ['creationtime',['creationtime',['../class_event___timed.html#ae5fa63a3e190a32269bf08e35085d0ae',1,'Event_Timed']]],
   ['curevent',['curEvent',['../class_g_u_imanager.html#a3100f1707a68e07c82b7aac971b39a73',1,'GUImanager']]],

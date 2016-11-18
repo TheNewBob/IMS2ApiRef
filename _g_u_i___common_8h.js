@@ -8,6 +8,7 @@ var _g_u_i___common_8h =
     [ "GUI_MAIN_ROOT_CONSTMNU_BTN", "_g_u_i___common_8h.html#adf764cbdea00d65edcd07bb9953ad2b7af46e534e43af2a7865e2acbe069e085e", null ],
     [ "GUI_MAIN_ROOT_DECONSTMNU_BTN", "_g_u_i___common_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a91dca70cf76aeb6206c8f2411437a1c3", null ],
     [ "GUI_MAIN_ROOT_MODULES_BTN", "_g_u_i___common_8h.html#adf764cbdea00d65edcd07bb9953ad2b7aec279ec4ca44b8df26f39bd05b1a8797", null ],
+    [ "GUI_MAIN_ROOT_CONFIGMNU_BTN", "_g_u_i___common_8h.html#adf764cbdea00d65edcd07bb9953ad2b7aa923e4204763b3c66692cf029e5a5e00", null ],
     [ "MD_CONSTRUCTION_MNU", "_g_u_i___common_8h.html#adf764cbdea00d65edcd07bb9953ad2b7afd9e1607ff2301d08d267f37ac20fc87", null ],
     [ "MD_CM_DOCKED_VESSELS_LIST", "_g_u_i___common_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a4283f92fbabe8c5732af2edb1bb94b17", null ],
     [ "MD_CM_INT_BTNS_PAGE", "_g_u_i___common_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a6b74ef1f81c819ed08722d026a5d7813", null ],
@@ -32,6 +33,8 @@ var _g_u_i___common_8h =
     [ "MD_MODULES_MODSELECTBTN", "_g_u_i___common_8h.html#adf764cbdea00d65edcd07bb9953ad2b7ab6e61d6e75f8ff0ea969ccb9f2cdfc05", null ],
     [ "MD_MODULES_CTRLPG", "_g_u_i___common_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a35be33b0ef00108112024445a7e2bdc2", null ],
     [ "MD_MODULES_ROOT_BTN", "_g_u_i___common_8h.html#adf764cbdea00d65edcd07bb9953ad2b7ad64b05985f947234ff67c9d94df85bca", null ],
+    [ "MD_CONFIG_MENU", "_g_u_i___common_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a582c973a0c88a1f0018808a37e150348", null ],
+    [ "MD_CONFIG_RCSASSISTCHKBX", "_g_u_i___common_8h.html#adf764cbdea00d65edcd07bb9953ad2b7ac2c543e7bc51aaad7023221671a6e397", null ],
     [ "GUI_UID_DOMAIN", "_g_u_i___common_8h.html#adf764cbdea00d65edcd07bb9953ad2b7aefb6a1eb951237c47ed7d907ce2be1e2", null ],
     [ "CORNERS", "_g_u_i___common_8h.html#a0eae6518af1561a428646b57225fdd65", [
       [ "UPPER_RIGHT", "_g_u_i___common_8h.html#a0eae6518af1561a428646b57225fdd65a033b9fac3860766caf98e125e0b2ca26", null ],

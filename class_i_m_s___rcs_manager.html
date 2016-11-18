@@ -140,6 +140,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ada5fd5994e519f247b6f988f99c5329d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_m_s___rcs_manager.html#ada5fd5994e519f247b6f988f99c5329d">PreStep</a> (double simdt)</td></tr>
 <tr class="memdesc:ada5fd5994e519f247b6f988f99c5329d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the firing solution is still valid and recalculates if necessary.  <a href="#ada5fd5994e519f247b6f988f99c5329d">More...</a><br /></td></tr>
 <tr class="separator:ada5fd5994e519f247b6f988f99c5329d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9136fe63e2401ca1dba6058675087d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_m_s___rcs_manager.html#ac9136fe63e2401ca1dba6058675087d1">SetIntelligentRcs</a> (bool enabled)</td></tr>
+<tr class="memdesc:ac9136fe63e2401ca1dba6058675087d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables or disables the intelligent RCS. The option to disable it is for compatibility with MFD autopilots that rely on querying RCS performance.  <a href="#ac9136fe63e2401ca1dba6058675087d1">More...</a><br /></td></tr>
+<tr class="separator:ac9136fe63e2401ca1dba6058675087d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f6d6c08e9a699dbddad5920ce90c7e8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_m_s___rcs_manager.html#a8f6d6c08e9a699dbddad5920ce90c7e8">GetIntelligentRcs</a> ()</td></tr>
+<tr class="separator:a8f6d6c08e9a699dbddad5920ce90c7e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2912ae2a01a34f928b107e05eda2b14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_m_s___rcs_manager.html#ae2912ae2a01a34f928b107e05eda2b14">SetCommandedTorque</a> (VECTOR3 &amp;torque)</td></tr>
+<tr class="separator:ae2912ae2a01a34f928b107e05eda2b14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -154,6 +161,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_m_s___rcs_manager.html#a61a07ec92670dffc0e5f8ad44589f755">destroyDummyThrusters</a> ()</td></tr>
 <tr class="memdesc:a61a07ec92670dffc0e5f8ad44589f755"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys the virtual rcs. <br /></td></tr>
 <tr class="separator:a61a07ec92670dffc0e5f8ad44589f755"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67e0faff4b89e9c0f2da1cadb37cc911"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a67e0faff4b89e9c0f2da1cadb37cc911"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_m_s___rcs_manager.html#a67e0faff4b89e9c0f2da1cadb37cc911">createPhysicalRcsGroups</a> ()</td></tr>
+<tr class="memdesc:a67e0faff4b89e9c0f2da1cadb37cc911"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds the vessels RCS thrusters to the actual rcs groups, enabling direct control by autopilots but losing its intelligence. <br /></td></tr>
+<tr class="separator:a67e0faff4b89e9c0f2da1cadb37cc911"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73e77ec60827af3445226f976a9f260f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a73e77ec60827af3445226f976a9f260f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_m_s___rcs_manager.html#a73e77ec60827af3445226f976a9f260f">destroyPhysicalRcsGroups</a> ()</td></tr>
+<tr class="memdesc:a73e77ec60827af3445226f976a9f260f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys the unintelligent RCS groups, but leaves the thrusters untouched. <br /></td></tr>
+<tr class="separator:a73e77ec60827af3445226f976a9f260f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a586b203b284975aa8cfa09ef2361099d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a586b203b284975aa8cfa09ef2361099d"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_m_s___rcs_manager.html#a586b203b284975aa8cfa09ef2361099d">getCommandedForce</a> (VECTOR3 &amp;OUT_force)</td></tr>
 <tr class="memdesc:a586b203b284975aa8cfa09ef2361099d"><td class="mdescLeft">&#160;</td><td class="mdescRight">reads userinput and converts it into a force vector <br /></td></tr>
@@ -165,6 +180,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a325a583d952d06ac6afd7a4bb566283c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_m_s___rcs_manager.html#a325a583d952d06ac6afd7a4bb566283c">calculateFiringSolution</a> ()</td></tr>
 <tr class="memdesc:a325a583d952d06ac6afd7a4bb566283c"><td class="mdescLeft">&#160;</td><td class="mdescRight">starts the calculation of a new firing solution in a new thread.  <a href="#a325a583d952d06ac6afd7a4bb566283c">More...</a><br /></td></tr>
 <tr class="separator:a325a583d952d06ac6afd7a4bb566283c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ee95aac07473fb378062ec620d75d9f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2ee95aac07473fb378062ec620d75d9f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_m_s___rcs_manager.html#a2ee95aac07473fb378062ec620d75d9f">destroyFiringSolution</a> ()</td></tr>
+<tr class="memdesc:a2ee95aac07473fb378062ec620d75d9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">aborts calculation of new firing solution and deletes the current one. <br /></td></tr>
+<tr class="separator:a2ee95aac07473fb378062ec620d75d9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -188,6 +207,10 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_m_s___rcs_manager.html#a3c4816cda8d241b3e60ce333c069f0c2">thrustersfiring</a> = false</td></tr>
 <tr class="memdesc:a3c4816cda8d241b3e60ce333c069f0c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag to easily track whether thrusters are currently firing. <br /></td></tr>
 <tr class="separator:a3c4816cda8d241b3e60ce333c069f0c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2816e481367fe6943648150d76e990fc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2816e481367fe6943648150d76e990fc"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_m_s___rcs_manager.html#a2816e481367fe6943648150d76e990fc">intelligentrcs</a> = true</td></tr>
+<tr class="memdesc:a2816e481367fe6943648150d76e990fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">registers if RCS is set to intelligent mode <br /></td></tr>
+<tr class="separator:a2816e481367fe6943648150d76e990fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a699e160d4b961b4970ed519112e19985"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a699e160d4b961b4970ed519112e19985"></a>
 <a class="el" href="class_firing_solution_calculator.html">FiringSolutionCalculator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_m_s___rcs_manager.html#a699e160d4b961b4970ed519112e19985">firingsolution</a> = NULL</td></tr>
 <tr class="memdesc:a699e160d4b961b4970ed519112e19985"><td class="mdescLeft">&#160;</td><td class="mdescRight">The firing solution currently in use. <br /></td></tr>
@@ -196,6 +219,14 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <a class="el" href="class_firing_solution_calculator.html">FiringSolutionCalculator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_m_s___rcs_manager.html#a8699938b0964db0bc9b0de1af30eb67f">newfiringsolution</a> = NULL</td></tr>
 <tr class="memdesc:a8699938b0964db0bc9b0de1af30eb67f"><td class="mdescLeft">&#160;</td><td class="mdescRight">When allocated, means that a new solution is being calculated in a separate thread. <br /></td></tr>
 <tr class="separator:a8699938b0964db0bc9b0de1af30eb67f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ffa1856ccb2426e48aa4bb25ec83d09"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1ffa1856ccb2426e48aa4bb25ec83d09"></a>
+VECTOR3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_m_s___rcs_manager.html#a1ffa1856ccb2426e48aa4bb25ec83d09">commandedtorque</a> = _V(0, 0, 0)</td></tr>
+<tr class="memdesc:a1ffa1856ccb2426e48aa4bb25ec83d09"><td class="mdescLeft">&#160;</td><td class="mdescRight">If non-user input sets a torque, it will be remembered here until processed. <br /></td></tr>
+<tr class="separator:a1ffa1856ccb2426e48aa4bb25ec83d09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb2fde056dae76bdfbfe45f5fb67cf00"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afb2fde056dae76bdfbfe45f5fb67cf00"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_m_s___rcs_manager.html#afb2fde056dae76bdfbfe45f5fb67cf00">torqueset</a> = false</td></tr>
+<tr class="memdesc:afb2fde056dae76bdfbfe45f5fb67cf00"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if torque was commanded during the current frame. <br /></td></tr>
+<tr class="separator:afb2fde056dae76bdfbfe45f5fb67cf00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Manages and controls RCS thrusters. </p>
@@ -289,6 +320,30 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 
 </div>
 </div>
+<a class="anchor" id="a8f6d6c08e9a699dbddad5920ce90c7e8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IMS_RcsManager::GetIntelligentRcs </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>True if RCS is in intelligent mode, false otherwise. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="ada5fd5994e519f247b6f988f99c5329d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -373,6 +428,47 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <dd>
 If the thruster is part of a pair, both thrusters will be removed! </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_i_m_s___rcs_manager.html#a92b0b54b5cd85ece502f023e0c70fb92" title="Adds a thruster to the rcs managment. ">AddThruster()</a>, <a class="el" href="class_i_m_s___rcs_manager.html#a16106b91663e04fe65fa2458b2c0134c" title="Adds a thruster as a pair to the rcs managment. ">AddThrusterPair()</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ae2912ae2a01a34f928b107e05eda2b14"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IMS_RcsManager::SetCommandedTorque </td>
+          <td>(</td>
+          <td class="paramtype">VECTOR3 &amp;&#160;</td>
+          <td class="paramname"><em>torque</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets commanded torque for next frame. Use this to control intelligent RCS with autopiliots. </p><dl class="section note"><dt>Note</dt><dd>User input will still override this setting! </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ac9136fe63e2401ca1dba6058675087d1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IMS_RcsManager::SetIntelligentRcs </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>enabled</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enables or disables the intelligent RCS. The option to disable it is for compatibility with MFD autopilots that rely on querying RCS performance. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">enabled</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
